@@ -1,6 +1,11 @@
 ---
 title: "Functional Programming"
-output: html_notebook
+output: 
+  html_notebook: 
+    fig_caption: yes
+    number_sections: yes
+    theme: spacelab
+    toc: yes
 ---
 
 # An introduction to writing functions and functional programming

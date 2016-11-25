@@ -1,2 +1,1 @@
-# compsci
-Programming clinic
+KWM programming clinic
