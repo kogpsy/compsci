@@ -1,0 +1,7 @@
+---
+title: "Functional Programming"
+output: html_notebook
+---
+
+# An introduction to writing functions and functional programming
+
