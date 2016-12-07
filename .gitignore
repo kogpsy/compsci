@@ -28,6 +28,7 @@ vignettes/*.pdf
 /*_cache/
 /cache/
 notebooks/*_cache*
+notebooks/*_files
 
 # Temporary files created by R markdown
 *.utf8.md
