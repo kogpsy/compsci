@@ -1,0 +1,53 @@
+---
+title: "Untitled"
+author: "Andrew Ellis"
+date: "12/22/2016"
+output: 
+  html_document: 
+    fig_caption: yes
+    number_sections: yes
+    theme: spacelab
+    toc: yes
+  word_document: 
+    fig_caption: yes
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R Markdown
+
+This is an _R_ Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+- item 1
+    - nested 1
+- item 2
+
+1) numbered 1
+2) numbered 2
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+enteer some text here $y \sim N(\mu, \sigma^2)$ and maybe here
+
+You can also embed plots, for example:
+
+```{r echo=TRUE, warning=FALSE}
+x <- 35
+```
+refer to this variable. x has the value `r x`
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

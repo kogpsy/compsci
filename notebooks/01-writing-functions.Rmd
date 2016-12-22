@@ -38,6 +38,7 @@ create_dataframe <- function(na_value = -99) {
 
 ```{r}
 df <- create_dataframe()
+df
 ```
 
 Now, let's replace all those `-99` values with `NA`s:
@@ -219,7 +220,7 @@ plot.some_class <- function(z) {
 ```
 
 ```{r fig-margin, fig.margin = TRUE, fig.cap = "Power function plot", fig.width=3.5, fig.height=3.5, cache=TRUE}
-out <- power_fun_3(2, k = 3)
+out <- power_fun_3(4, k = 8)
 plot(out)
 ```
 
